@@ -2865,6 +2865,290 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:MUN12AD03-SH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MUN12AD03-SH"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_Cyntec_MUN12AD03-SH"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC/DC Switching Regulator Power Module 3A Cyntec MUN12AD03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter?DCDC?Cyntec?MUN12AD03?SH*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MUN12AD03-SH_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MUN12AD03-SH_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Temperature:MAX31855KASA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3353,6 +3637,28 @@
 	)
 	(global_label "5V"
 		(shape input)
+		(at 34.29 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0029157e-052d-4035-8e69-8bf7d4f31fe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.0067 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
 		(at 259.08 80.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3439,28 +3745,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape input)
-		(at 248.92 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a0bea99-0987-4252-b486-21769e2ef73c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.6367 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HEATER"
 		(shape input)
 		(at 259.08 62.23 180)
@@ -3540,6 +3824,28 @@
 		(uuid "266aeead-c6c0-4883-b693-92d28e36a761")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 252.2243 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 248.92 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2854b114-4ded-4331-bb23-cd53e3ac0c85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.8224 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,6 +4000,28 @@
 		(uuid "4c3839f6-ee87-4bb0-ba10-8ee06b25d992")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 253.7967 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 44.45 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e857dd7-f5e2-432b-8c2c-c5ad39831efd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 131.3157 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,6 +4687,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 54.61 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc4f01d2-1661-45e0-a998-559f57a69c87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7076 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5459,6 +5809,101 @@
 			(project ""
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:MUN12AD03-SH")
+		(at 44.45 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b024786a-6a8c-4a85-8f5a-2179ef8019d9")
+		(property "Reference" "U5"
+			(at 44.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MUN12AD03-SH"
+			(at 44.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_Cyntec_MUN12AD03-SH"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf"
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ea920959-b917-4660-a167-1f6ff12dcf03")
+		)
+		(pin "8"
+			(uuid "d1374f83-f6e8-472b-b0f6-509e79352323")
+		)
+		(pin "3"
+			(uuid "fa3db99c-fb89-412c-b0a3-249ee2a25a3a")
+		)
+		(pin "5"
+			(uuid "ed781e7b-a34b-42b3-9cd4-b3d27c7efbdb")
+		)
+		(pin "2"
+			(uuid "8cdf4fe8-9a47-47cc-81f1-05aa9b5cbb02")
+		)
+		(pin "4"
+			(uuid "eb20a8ad-13df-4951-96a0-8d55931c7f72")
+		)
+		(pin "1"
+			(uuid "e5d033a1-ab33-4ef4-82e4-81e80a75443c")
+		)
+		(pin "11"
+			(uuid "e56ab8f4-416a-4045-94af-8ca23d061117")
+		)
+		(pin "10"
+			(uuid "aad1049a-1928-4cad-897e-ca3968b33801")
+		)
+		(pin "6"
+			(uuid "6dc7d787-5c95-46f7-ab20-e419615709ba")
+		)
+		(pin "9"
+			(uuid "bf54dc43-9a64-4a08-b13a-5ec0ee4c2dee")
+		)
+		(instances
+			(project ""
+				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
