@@ -560,12 +560,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -613,6 +637,14 @@
     [
       "18f69721-6a2b-4a2b-8e72-291680dbbe9a",
       "Root"
+    ],
+    [
+      "9be4a7bd-c700-4299-b6e8-c4d6e64335b9",
+      "Pump Relay"
+    ],
+    [
+      "b03a6577-379d-4caf-acb6-2da9cef35c55",
+      "Valve Relay"
     ]
   ],
   "text_variables": {}
