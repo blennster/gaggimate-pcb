@@ -958,12 +958,6 @@
 		(uuid "7fcb9178-913e-4605-9cfb-3dc0a1fb5e65")
 	)
 	(junction
-		(at 173.99 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83d35a74-c184-487b-b7ad-5c675b3c97be")
-	)
-	(junction
 		(at 147.32 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1129,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 173.99 115.57)
+			(xy 167.64 115.57) (xy 180.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1306,16 +1300,6 @@
 			(type default)
 		)
 		(uuid "e4e88db1-34dd-421b-82ef-2bbc96a79f20")
-	)
-	(wire
-		(pts
-			(xy 173.99 115.57) (xy 180.34 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb20b3f1-7a03-4e55-a3a5-41810ec6a4db")
 	)
 	(wire
 		(pts
@@ -1906,72 +1890,6 @@
 			(project "GaggiMate"
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/c32dc71d-382e-44f7-848c-34f69da70bf2"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 173.99 115.57 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1755a1b-fde2-47af-895d-78321cac18b5")
-		(property "Reference" "#FLG01"
-			(at 173.99 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 170.18 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 173.99 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df828fd9-0a5e-46fc-92eb-038612a0f5e2")
-		)
-		(instances
-			(project "GaggiMate"
-				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/c32dc71d-382e-44f7-848c-34f69da70bf2"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)

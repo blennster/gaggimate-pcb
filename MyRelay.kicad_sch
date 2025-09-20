@@ -296,7 +296,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Fujitsu_FTR-LYAA005x"
+		(symbol "Relay:SANYOU_SRD_Form_C"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -309,7 +309,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Fujitsu_FTR-LYAA005x"
+			(property "Value" "SANYOU_SRD_Form_C"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -318,7 +318,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -328,17 +328,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-				(at 17.78 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -347,7 +337,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "6A SPST-NO Relay"
+			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
 				(at 0 0 0)
 				(effects
 					(font
@@ -356,7 +346,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYA*"
+			(property "ki_keywords" "Single Pole Relay SPDT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -365,7 +355,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_0"
+			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SANYOU_SRD_Form_C_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -379,7 +378,7 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_1"
+			(symbol "SANYOU_SRD_Form_C_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -523,7 +522,19 @@
 					)
 				)
 			)
-			(symbol "Fujitsu_FTR-LYAA005x_1_1"
+			(symbol "SANYOU_SRD_Form_C_1_1"
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -534,7 +545,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,7 +563,25 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,7 +599,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -588,7 +617,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -995,6 +1024,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 97.79) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23792efc-c584-45f1-92c0-f7cae06bd991")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 133.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25843283-18b8-47cd-bd0c-1c74a8c1198b")
+	)
+	(wire
+		(pts
 			(xy 40.64 76.2) (xy 64.77 76.2)
 		)
 		(stroke
@@ -1112,16 +1161,6 @@
 			(type default)
 		)
 		(uuid "7137590c-639f-47bf-a127-4d28224d7203")
-	)
-	(wire
-		(pts
-			(xy 138.43 97.79) (xy 162.56 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7331651a-d3b6-449e-9b0e-5f0c6a1a28a4")
 	)
 	(wire
 		(pts
@@ -1263,6 +1302,28 @@
 		)
 		(uuid "fe36d8b4-64f1-4bf5-85ea-eccc59ff595e")
 	)
+	(global_label "HV_NC"
+		(shape input)
+		(at 133.35 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "267bbd6c-d4dc-4d9a-853b-61b10c2bf8f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.3224 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 40.64 76.2 180)
@@ -1285,17 +1346,6 @@
 		)
 		(uuid "49c1f2c3-a7ab-4ea3-a0df-9e0edb5724f8")
 	)
-	(hierarchical_label "OUT"
-		(shape output)
-		(at 162.56 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a507d67b-7e57-4796-8789-de4e8d6d2f0b")
-	)
 	(hierarchical_label "EN"
 		(shape input)
 		(at 40.64 95.25 180)
@@ -1309,6 +1359,17 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
+		(at 162.56 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2084606-5678-4906-b975-6c755d281fb1")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
 		(at 162.56 113.03 0)
 		(effects
 			(font
@@ -1316,7 +1377,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b5c1f8ff-c590-426a-961e-0a79f9f5ae31")
+		(uuid "dbaa2546-fc83-4404-bc49-9740caa220ba")
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
@@ -1564,6 +1625,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:SANYOU_SRD_Form_C")
+		(at 130.81 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8753cfde-18c6-4947-85c2-f9db14859bd4")
+		(property "Reference" "K1"
+			(at 142.24 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SRD-05VDC-SL-C"
+			(at 142.24 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(at 130.81 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "24f484e7-5a26-4466-8a6a-2bd68cb76c2c")
+		)
+		(pin "2"
+			(uuid "76ad7b1c-a444-4d12-ba74-63284dd0cca0")
+		)
+		(pin "5"
+			(uuid "92150ca2-e2fa-4f85-8606-800404c1264a")
+		)
+		(pin "1"
+			(uuid "7977f056-cf9a-4154-8334-e92f8485640d")
+		)
+		(pin "3"
+			(uuid "58905da1-64a9-44eb-958a-0eb573c08313")
+		)
+		(instances
+			(project ""
+				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/9be4a7bd-c700-4299-b6e8-c4d6e64335b9"
+					(reference "K1")
+					(unit 1)
+				)
+				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/b03a6577-379d-4caf-acb6-2da9cef35c55"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 92.71 82.55 0)
 		(unit 1)
@@ -1783,97 +1928,6 @@
 				)
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/b03a6577-379d-4caf-acb6-2da9cef35c55"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 130.81 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d828b4eb-8d95-4038-9d89-ad711799628a")
-		(property "Reference" "K3"
-			(at 142.24 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay"
-			(at 142.24 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 142.24 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 148.59 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C35449"
-			(at 142.24 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "f2230075-1fda-483f-86e7-003790f94df7")
-		)
-		(pin "A2"
-			(uuid "ef6f5746-71ba-46e6-953c-d7e8e6511dde")
-		)
-		(pin "A1"
-			(uuid "1ff49c1a-0139-4c80-9edf-3a4b41c6d540")
-		)
-		(pin "13"
-			(uuid "54da14db-7d1a-4233-b158-4824fc9e896d")
-		)
-		(instances
-			(project ""
-				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/9be4a7bd-c700-4299-b6e8-c4d6e64335b9"
-					(reference "K3")
-					(unit 1)
-				)
-				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/b03a6577-379d-4caf-acb6-2da9cef35c55"
-					(reference "K4")
 					(unit 1)
 				)
 			)
