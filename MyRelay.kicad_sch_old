@@ -1845,15 +1845,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C35449"
-			(at 142.24 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "14"
 			(uuid "f2230075-1fda-483f-86e7-003790f94df7")
 		)

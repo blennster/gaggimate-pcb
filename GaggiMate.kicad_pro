@@ -645,6 +645,10 @@
     [
       "b03a6577-379d-4caf-acb6-2da9cef35c55",
       "Valve Relay"
+    ],
+    [
+      "c32dc71d-382e-44f7-848c-34f69da70bf2",
+      "HVSupply"
     ]
   ],
   "text_variables": {}
