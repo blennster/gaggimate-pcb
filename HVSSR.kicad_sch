@@ -715,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 114.3 82.55)
+			(xy 107.95 82.55) (xy 127 82.55)
 		)
 		(stroke
 			(width 0)
@@ -745,6 +745,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 90.17) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2890a2e1-7e5c-4147-b4da-de39e202085d")
+	)
+	(wire
+		(pts
 			(xy 144.78 82.55) (xy 147.32 82.55)
 		)
 		(stroke
@@ -765,17 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 82.55) (xy 127 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5239606-5e19-4352-831b-f3f86b2c9bec")
-	)
-	(wire
-		(pts
-			(xy 107.95 90.17) (xy 127 90.17)
+			(xy 107.95 90.17) (xy 115.57 90.17)
 		)
 		(stroke
 			(width 0)
@@ -861,7 +861,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 82.55 90)
+		(at 119.38 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -869,8 +869,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d395c351-01eb-4e3f-a130-3cbb8f439eb7")
-		(property "Reference" "R6"
-			(at 118.11 76.2 90)
+		(property "Reference" "R12"
+			(at 119.38 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +878,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 118.11 78.74 90)
+			(at 119.38 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +886,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 118.11 84.328 90)
+			(at 119.38 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 82.55 0)
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +904,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 82.55 0)
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,11 +921,11 @@
 		(instances
 			(project "GaggiMate"
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/408458ba-3d65-4408-a5a0-5df4ee162e36"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/f7f28c5c-b8c9-48cd-824f-13eab97dd33b"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
