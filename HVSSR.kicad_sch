@@ -916,6 +916,10 @@
 		(color 0 0 0 0)
 		(uuid "d2fe6869-16e8-40ff-9051-0bc689015afe")
 	)
+	(no_connect
+		(at 144.78 90.17)
+		(uuid "2073f4df-17fe-4a82-a2ec-935f1e645420")
+	)
 	(wire
 		(pts
 			(xy 151.13 87.63) (xy 161.29 87.63)
@@ -1005,38 +1009,6 @@
 			(type default)
 		)
 		(uuid "b595a1d7-8f6c-45ef-9ff2-f4284e678e2e")
-	)
-	(wire
-		(pts
-			(xy 148.59 90.17) (xy 144.78 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac27206-3a6e-446b-9f55-ac7995388ad7")
-	)
-	(global_label "HV_NC"
-		(shape input)
-		(at 148.59 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0a55a749-1977-4349-84a7-c94de1b98668")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.5624 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(hierarchical_label "EN (3V3)"
 		(shape input)
