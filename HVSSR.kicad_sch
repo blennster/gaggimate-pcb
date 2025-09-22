@@ -1211,7 +1211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d395c351-01eb-4e3f-a130-3cbb8f439eb7")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 119.38 83.82 90)
 			(effects
 				(font
@@ -1263,7 +1263,7 @@
 		(instances
 			(project "GaggiMate"
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/408458ba-3d65-4408-a5a0-5df4ee162e36"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/f7f28c5c-b8c9-48cd-824f-13eab97dd33b"
@@ -1283,7 +1283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e258b0e9-b2be-4f54-bd41-c623681dfdaa")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 135.89 76.2 0)
 			(effects
 				(font
@@ -1353,7 +1353,7 @@
 		(instances
 			(project ""
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/408458ba-3d65-4408-a5a0-5df4ee162e36"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/f7f28c5c-b8c9-48cd-824f-13eab97dd33b"
