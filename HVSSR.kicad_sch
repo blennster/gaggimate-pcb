@@ -129,6 +129,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Varistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Varistor"
+				(at -3.175 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_varistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Varistor_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Varistor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay_SolidState:AQH2223A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -713,6 +904,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 151.13 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1afcfe9e-0ba0-4ed9-a474-2fccebbd2bef")
+	)
+	(junction
+		(at 151.13 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fe6869-16e8-40ff-9051-0bc689015afe")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b5b0eb-9c5c-4c90-b132-77ad1e038e84")
+	)
 	(wire
 		(pts
 			(xy 107.95 82.55) (xy 127 82.55)
@@ -735,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 87.63) (xy 161.29 87.63)
+			(xy 144.78 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +978,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 161.29 80.01)
+			(xy 151.13 80.01) (xy 161.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93450c28-040b-4705-a5ee-1dd88e775c48")
+	)
+	(wire
+		(pts
+			(xy 147.32 80.01) (xy 151.13 80.01)
 		)
 		(stroke
 			(width 0)
@@ -860,6 +1083,125 @@
 		(uuid "f65017d6-f1b4-45c3-8592-760856b046f9")
 	)
 	(symbol
+		(lib_id "Device:Varistor")
+		(at 151.13 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24b92e03-940b-42c2-a33f-ce7872d667b7")
+		(property "Reference" "RV0"
+			(at 153.67 82.7432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Varistor"
+			(at 153.67 85.2832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+			(at 149.352 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage dependent resistor"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "807dc7f1-5798-4f3b-b3fe-8709b31abec4")
+		)
+		(pin "1"
+			(uuid "1d4440f1-b713-47a0-b6fd-b9df4429cdb7")
+		)
+		(instances
+			(project ""
+				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/408458ba-3d65-4408-a5a0-5df4ee162e36"
+					(reference "RV0")
+					(unit 1)
+				)
+				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/f7f28c5c-b8c9-48cd-824f-13eab97dd33b"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 119.38 90.17 90)
 		(unit 1)
@@ -885,7 +1227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.38 91.948 90)
 			(effects
 				(font
@@ -925,7 +1267,7 @@
 					(unit 1)
 				)
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/f7f28c5c-b8c9-48cd-824f-13eab97dd33b"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -941,7 +1283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e258b0e9-b2be-4f54-bd41-c623681dfdaa")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 135.89 76.2 0)
 			(effects
 				(font
@@ -1011,11 +1353,11 @@
 		(instances
 			(project ""
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/408458ba-3d65-4408-a5a0-5df4ee162e36"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/18f69721-6a2b-4a2b-8e72-291680dbbe9a/f7f28c5c-b8c9-48cd-824f-13eab97dd33b"
-					(reference "U9")
+					(reference "U3")
 					(unit 1)
 				)
 			)
