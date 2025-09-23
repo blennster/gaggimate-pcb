@@ -10893,7 +10893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "100nF"
 			(at 95.25 113.0301 0)
 			(effects
 				(font
@@ -11106,7 +11106,7 @@
 				)
 			)
 		)
-		(property "Value" "845"
+		(property "Value" "1k"
 			(at 77.47 109.22 90)
 			(effects
 				(font
@@ -11241,7 +11241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "100nF"
 			(at 57.15 118.1101 0)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 				)
 			)
 		)
-		(property "Value" "845"
+		(property "Value" "1k"
 			(at 115.57 105.664 90)
 			(effects
 				(font
@@ -13118,7 +13118,7 @@
 				)
 			)
 		)
-		(property "Value" "845"
+		(property "Value" "1k"
 			(at 96.52 106.68 90)
 			(effects
 				(font
@@ -13253,7 +13253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "100nF"
 			(at 76.2 115.5701 0)
 			(effects
 				(font
@@ -14142,7 +14142,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22nF"
+		(property "Value" "100nF"
 			(at 114.3 113.0299 0)
 			(effects
 				(font
@@ -14865,7 +14865,7 @@
 				)
 			)
 		)
-		(property "Value" "845"
+		(property "Value" "1k"
 			(at 58.42 111.76 90)
 			(effects
 				(font
