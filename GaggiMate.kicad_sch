@@ -8381,6 +8381,16 @@
 		)
 		(uuid "575b0c82-5c67-4a8d-a762-6a6f816c4d2a")
 	)
+	(label "D-"
+		(at 63.5 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "592c3a59-ce25-4788-bab7-8816b1443994")
+	)
 	(label "A6"
 		(at 367.03 165.1 180)
 		(effects
@@ -8410,6 +8420,16 @@
 			(justify left bottom)
 		)
 		(uuid "79141fb8-8cd7-4adc-b1d6-891676e9b1e0")
+	)
+	(label "D+"
+		(at 63.5 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c3faa84-4d96-416a-ab09-7af6727f8fec")
 	)
 	(label "A3"
 		(at 281.94 55.88 0)
