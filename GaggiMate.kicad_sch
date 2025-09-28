@@ -11971,7 +11971,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6108b578-06cf-4c6d-94ed-5719eeba2e82")
 		(property "Reference" "J4"
@@ -12066,7 +12066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
+		(property "Footprint" "easyeda2kicad:WIRELM-SMD_ESP32-S3-WROOM-1"
 			(at 222.25 119.38 0)
 			(effects
 				(font
@@ -12718,7 +12718,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "712adf95-ffbb-449e-9238-81d550be386b")
 		(property "Reference" "J10"
@@ -13870,7 +13870,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4572a8a-cbb9-459c-9768-f346fbd597d4")
 		(property "Reference" "J11"
