@@ -4400,7 +4400,7 @@
 			(uuid "378149f6-7b8a-40fb-97b9-38c4109f4f8c")
 		)
 		(embedded_fonts no)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1.wrl"
+		(model "${KIPRJMOD}/packages3D/WIRELM-SMD_ESP32-S3-WROOM-1.wrl"
 			(offset
 				(xyz 0 3.65 -0)
 			)
@@ -6266,7 +6266,7 @@
 			(uuid "925fb072-f398-4c8e-8a81-984e81361fce")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7865,7 +7865,7 @@
 			(uuid "646263b2-f128-4ab4-82f4-32cc57153049")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KIPRJMOD}/packages3D/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8497,7 +8497,7 @@
 			(uuid "b11bc7a3-61cf-4896-988f-46a230afa1d1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(model "${KIPRJMOD}/packages3D/LED_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9038,7 +9038,7 @@
 			(uuid "e4e3d796-d5c7-4b57-bf5f-bf9e2b90ae4b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
